@@ -1,0 +1,19 @@
+.navMenu{
+  display: flex;  
+  flex-direction: row;  
+  justify-content: space-around;  
+  align-items: center;  
+  margin: 10px;  
+  }
+
+  .links{
+    margin: 10px;
+    text-decoration: none;
+  
+  }
+  .links:hover{
+    text-decoration: underline;
+  }
+  .active{
+    color: green;
+  }
